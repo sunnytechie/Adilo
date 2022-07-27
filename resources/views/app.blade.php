@@ -13,6 +13,39 @@
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
+        <style>
+            .dropdown-toggle::after {
+            display: none;
+            }
+
+            .bg-light {
+                background: #fff !important;
+            }
+
+            .sidebar {
+                background: rgb(241, 236, 236);
+            }
+
+            .help .nav-link {
+                padding: 0 0.5rem !important;
+            }
+
+            .btn-group-of-in-row .btn {
+                border: 0.1rem solid #ddd;
+                border-radius: 40px;
+            }
+
+            .btn-group-of-in-row .btn-primary-1 {
+                background: #0DABD8;
+                color: #fff;
+            }
+
+            .btn-group-of-in-row .btn-primary-2 {
+                background: #EF5350;
+                color: #fff;
+            }
+        </style>
+
         <!-- Scripts -->
         @routes
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js"></script>
