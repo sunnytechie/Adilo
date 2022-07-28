@@ -14,15 +14,12 @@
             Live preview
           </span>
 
-          <div class="card" style="background: #ddd">
-            <div class="card-body">
-              <h5 class="card-title">Recording screen</h5>
-              <p class="card-text">Okay wahala</p>
-            </div>
+          <div class="card" id="canvas" style="background: #21455E; height: 300px;">
+            
           </div>
 
           <div class="my-3 mx-auto text-center">
-            <button style="padding: 10px 30px; border-radius: 30px; color: #fff" class="btn btn-primary" type="button">Start recording</button>
+            <button id="snap" style="padding: 10px 30px; border-radius: 30px; color: #fff" class="btn btn-primary" type="button">Start recording</button>
           </div>
         </div>
       </div>
@@ -38,6 +35,13 @@ import BreezeAuthenticatedLayout from '@/Layouts/Authenticated.vue'
 import { Head } from '@inertiajs/inertia-vue3'
 
 export default {
+  data(){
+        return {
+            imageBase64: null,
+            videoUrl: null,
+        }
+    },
+    
   components: {
     BreezeAuthenticatedLayout,
     Head,
@@ -49,11 +53,8 @@ data() {
     modal: false,
   }
 },
-
 }
 </script>
-
-<!-- Access camera and open camera on the page -->
 
 <style>
   .modal-backdrop.show {
