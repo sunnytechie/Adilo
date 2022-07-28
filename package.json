@@ -35,6 +35,8 @@
         "webpack-node-externals": "^3.0.0"
     },
     "dependencies": {
+        "m": "^1.8.1",
+        "videojs-record": "^4.5.0",
         "vue-media-recorder": "^0.1.25"
     }
 }

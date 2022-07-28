@@ -60,4 +60,28 @@
             <script src="http://localhost:3000/browser-sync/browser-sync-client.js"></script>
         @endenv
     </body>
+
+    <script>
+        //alert when a button is clicked
+        document.addEventListener('click', function(e) {
+            if (e.target.matches('#start')) {
+               //show access camera and show video
+               navigator.mediaDevices.getUserMedia({video: true, audio: false}).then(stream => {
+                    const video = document.getElementById('video');
+                    video.srcObject = stream;
+                    video.play();
+                });
+            }
+        });
+
+        //close camera when user leave the page
+        window.onbeforeunload = function() {
+            const video = document.getElementById('video');
+            const stream = video.srcObject;
+            const tracks = stream.getTracks();
+            tracks.forEach(function(track) {
+                track.stop();
+            });
+        };
+    </script>
 </html>

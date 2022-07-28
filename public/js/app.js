@@ -26998,15 +26998,20 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   d: "M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Live preview ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "card",
-  id: "canvas",
   style: {
     "background": "#21455E",
-    "height": "300px"
+    "height": "400px"
   }
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("video", {
+  muted: "",
+  id: "video",
+  autoplay: "",
+  height: "400",
+  width: "497"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "my-3 mx-auto text-center"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
-  id: "snap",
+  id: "start",
   style: {
     "padding": "10px 30px",
     "border-radius": "30px",
@@ -27085,7 +27090,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<select class=\"form-select\" aria-label=\"Default select example\"><option value=\"0\" selected disabled>Select a folder</option><option value=\"3\">Adilo</option><option value=\"1\">Drive</option><option value=\"2\">My Computer</option></select>", 1);
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<select class=\"form-select\" aria-label=\"Default select example\" required><option value=\"0\" selected disabled>Select a folder</option><option value=\"3\">Adilo</option><option value=\"1\">Drive</option><option value=\"2\">My Computer</option></select>", 1);
 
 var _hoisted_8 = {
   "class": "form-check form-switch my-3 d-flex justify-content-between"

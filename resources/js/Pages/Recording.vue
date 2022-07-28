@@ -13,13 +13,13 @@
             </svg>
             Live preview
           </span>
-
-          <div class="card" id="canvas" style="background: #21455E; height: 300px;">
-            
+          
+          <div class="card" style="background: #21455E; height: 400px;">
+              <video muted id="video" autoplay height="400" width="497"></video>
           </div>
 
           <div class="my-3 mx-auto text-center">
-            <button id="snap" style="padding: 10px 30px; border-radius: 30px; color: #fff" class="btn btn-primary" type="button">Start recording</button>
+            <button id="start" style="padding: 10px 30px; border-radius: 30px; color: #fff" class="btn btn-primary" type="button">Start recording</button>
           </div>
         </div>
       </div>
@@ -54,7 +54,9 @@ data() {
   }
 },
 }
+
 </script>
+
 
 <style>
   .modal-backdrop.show {

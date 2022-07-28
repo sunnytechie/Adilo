@@ -12,7 +12,7 @@
           <div class="modal-body">
           <div>Save the recording in</div>
           <div>
-              <select class="form-select" aria-label="Default select example">
+              <select class="form-select" aria-label="Default select example" required>
                   <option value="0" selected disabled>Select a folder</option>
                   <option value="3">Adilo</option>
                   <option value="1">Drive</option>
