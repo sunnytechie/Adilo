@@ -3,6 +3,7 @@
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use App\Http\Controllers\RecordController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,9 +22,7 @@ Route::get('/', function () {
 });
 
 //recording
-Route::get('/recording', function () {
-    return Inertia::render('Recording');
-});
+Route::resource('records', RecordController::class);
 
 Route::get('/welcome', function () {
     return Inertia::render('Welcome', [
