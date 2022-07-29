@@ -36,11 +36,11 @@
               </div>
           </div>
         </div>
+        <div class="modal-footer-bottom mx-auto p-3 text-center">
+          <button type="submit" class="btn btn-primary mx-auto" style="padding: 10px 30px; border-radius: 30px; color: #fff">Start Recording</button>
+        </div>
       </form>
       
-      <div class="modal-footer-bottom mx-auto p-3 text-center">
-          <Link href="/records" type="button" class="btn btn-primary mx-auto" style="padding: 10px 30px; border-radius: 30px; color: #fff">Start Recording</Link>
-      </div>
     </div>
   </div>
 </div>

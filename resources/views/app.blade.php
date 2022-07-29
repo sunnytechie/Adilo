@@ -73,15 +73,5 @@
                 });
             }
         });
-
-        //close camera when user leave the page
-        window.onbeforeunload = function() {
-            const video = document.getElementById('video');
-            const stream = video.srcObject;
-            const tracks = stream.getTracks();
-            tracks.forEach(function(track) {
-                track.stop();
-            });
-        };
     </script>
 </html>
