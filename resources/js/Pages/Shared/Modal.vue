@@ -19,8 +19,6 @@
                   <option value="2">My Computer</option>
               </select>
 
-          
-
               <div class="form-check form-switch my-3 d-flex justify-content-between">
               <div><label class="form-check-label" for="flexSwitchCheckDefault">Record screen</label></div>
               <div><input class="form-check-input" v-model="form.screen" type="checkbox" role="switch" id="flexSwitchCheckDefault"></div>
@@ -39,7 +37,7 @@
           </div>
         </div>
         <div class="modal-footer-bottom mx-auto p-3 text-center">
-          <button type="submit" class="btn btn-primary mx-auto" style="padding: 10px 30px; border-radius: 30px; color: #fff">Start Recording</button>
+          <Link href="/records" type="button" class="btn btn-primary mx-auto" style="padding: 10px 30px; border-radius: 30px; color: #fff">Start Recording</Link>
         </div>
       </form>
       
