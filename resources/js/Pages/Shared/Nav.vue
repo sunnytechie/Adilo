@@ -68,7 +68,7 @@
                             </div>
 
                             <div style="height: 24px; margin-top: -2px">
-                                <div style="height: 10px; font-size: 12px; margin-bottom: 4px; font-weight: 500;"><strong>Sunday A. Chinedu</strong></div>
+                                <div style="height: 10px; font-size: 12px; margin-bottom: 4px; font-weight: 500;"><strong>Sunday Chinedu</strong></div>
                                 <div style="height: 10px; font-size: 12px; font-weight: 200; color: #6a7a97;">sunnyict001@gmail.com</div>
                             </div>
                         </div>
